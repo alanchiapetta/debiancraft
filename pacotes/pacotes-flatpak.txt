@@ -1,0 +1,8 @@
+com.visualstudio.code
+com.discordapp.Discord
+com.obsproject.Studio
+com.heroicgameslauncher.hgl
+com.valvesoftware.Steam
+net.davidotek.pupgui2
+com.stremio.Stremio
+com.rtosta.zapzap

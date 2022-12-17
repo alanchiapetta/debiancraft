@@ -1,0 +1,109 @@
+# Como instalar o Ksuperkey
+
+Fonte: https://github.com/hanschen/ksuperkey
+
+##Instalar as dependências
+
+sudo apt-get install git gcc make libx11-dev libxtst-dev pkg-config
+
+**Importante:** Em alguns sistemas também pode ser necessário a instalação do pacote "build-essencial" (ou equivalente)
+
+## Clone o projeto e compile
+
+git clone https://github.com/hanschen/ksuperkey.git
+cd ksuperkey
+make
+
+**Importante:** para instalar no sistema inteiro, use:
+sudo make
+sudo make install
+
+================================================================
+
+# Como Instalar o i3lock-color
+
+Fonte: https://github.com/Raymo111/i3lock-color
+
+## Instalar as dependências
+
+sudo apt install autoconf gcc make pkg-config libpam0g-dev libcairo2-dev libfontconfig1-dev libxcb-composite0-dev libev-dev libx11-xcb-dev libxcb-xkb-dev libxcb-xinerama0-dev libxcb-randr0-dev libxcb-image0-dev libxcb-util0-dev libxcb-xrm-dev libxkbcommon-dev libxkbcommon-x11-dev libjpeg-dev
+
+## Clone o projeto e instale
+
+git clone https://github.com/Raymo111/i3lock-color.git
+cd i3lock-color
+./install-i3lock-color.sh
+
+================================================================
+
+# Como instalar o betterlockscreen
+
+Fonte: https://github.com/betterlockscreen/betterlockscreen
+
+## Copie o código para instalar no sistema todo (/usr/local/bin)
+
+wget https://raw.githubusercontent.com/betterlockscreen/betterlockscreen/main/install.sh -O - -q | sudo bash -s system
+
+================================================================
+
+# Como instalar o pywal
+
+## Instalar as dependências
+
+python 3.5+
+imagemagick
+pidof
+feh
+nitrogen
+bgs
+hsetroot
+habak
+display
+
+## Instalar pywal
+**ATENÇÃO:** pode instalar apenas para o usuário comum ou para o sistema todo. Porém, o pip não recomenda instalar para o sistema inteiro por risco de quebrar dependências.
+Fica por sua conta e risco.
+
+### Instalação local
+sudo pip3 install pywal
+
+### Instalação para o sistema todo
+pip3 install pywal
+
+### OPCIONAL: Instalação manual
+
+git clone https://github.com/dylanaraps/pywal
+cd pywal
+pip3 install --user .
+
+** Add local 'pip' to PATH:
+** (In your .bashrc, .zshrc etc)
+export PATH="${PATH}:${HOME}/.local/bin/"
+
+================================================================
+
+# Como Instalar Ranger
+
+## Instale as dependências
+sudo python3-pip ueberzug
+
+## Instale o Ranger
+**ATENÇÃO:** pode instalar apenas para o usuário comum ou para o sistema todo. Porém, o pip não recomenda instalar para o sistema inteiro por risco de quebrar dependências.
+Fica por sua conta e risco.
+
+### Instalação local
+sudo pip3 install ranger-fm
+
+### Instalação para o sistema todo
+pip3 install ranger-fm
+
+================================================================
+
+# Como Instalar Youtube Music (com adblock e +plugins)
+
+## Instalação de dependência
+sudo apt install gdebi wget
+
+## Download do arquivo .deb e instalação com gdebi
+
+wget -v https://github.com/th-ch/youtube-music/releases/download/v1.18.0/youtube-music_1.18.0_amd64.deb -O ~/Downloads/youtube-music.deb && sudo gdebi ~/Downloads/youtube-music.deb && rm -v ~/Downloads/youtube-music.deb
