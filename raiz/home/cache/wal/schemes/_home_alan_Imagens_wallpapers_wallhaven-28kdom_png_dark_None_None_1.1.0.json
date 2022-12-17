@@ -1,0 +1,27 @@
+{
+    "wallpaper": "/home/alan/Imagens/wallpapers/wallhaven-28kdom.png",
+    "alpha": "100",
+    "special": {
+        "background": "#0f0b10",
+        "foreground": "#c8a5ca",
+        "cursor": "#c8a5ca"
+    },
+    "colors": {
+        "color0": "#0f0b10",
+        "color1": "#2E2A6F",
+        "color2": "#572A59",
+        "color3": "#5C466D",
+        "color4": "#97355F",
+        "color5": "#2C2E8B",
+        "color6": "#5647A7",
+        "color7": "#c8a5ca",
+        "color8": "#8c738d",
+        "color9": "#2E2A6F",
+        "color10": "#572A59",
+        "color11": "#5C466D",
+        "color12": "#97355F",
+        "color13": "#2C2E8B",
+        "color14": "#5647A7",
+        "color15": "#c8a5ca"
+    }
+}

@@ -1,0 +1,27 @@
+{
+    "wallpaper": "/home/alan/Imagens/wallpapers/pastel.png",
+    "alpha": "100",
+    "special": {
+        "background": "#141b36",
+        "foreground": "#ead9e6",
+        "cursor": "#ead9e6"
+    },
+    "colors": {
+        "color0": "#141b36",
+        "color1": "#6E8BC6",
+        "color2": "#8C86B8",
+        "color3": "#D699B7",
+        "color4": "#AEA8D3",
+        "color5": "#D2B8D9",
+        "color6": "#E0BDDB",
+        "color7": "#ead9e6",
+        "color8": "#a397a1",
+        "color9": "#6E8BC6",
+        "color10": "#8C86B8",
+        "color11": "#D699B7",
+        "color12": "#AEA8D3",
+        "color13": "#D2B8D9",
+        "color14": "#E0BDDB",
+        "color15": "#ead9e6"
+    }
+}

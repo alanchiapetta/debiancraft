@@ -1,0 +1,27 @@
+{
+    "wallpaper": "/home/alan/Imagens/wallpapers/tealize.png",
+    "alpha": "100",
+    "special": {
+        "background": "#1b1d28",
+        "foreground": "#aad8d4",
+        "cursor": "#aad8d4"
+    },
+    "colors": {
+        "color0": "#1b1d28",
+        "color1": "#2BB2A7",
+        "color2": "#54918F",
+        "color3": "#59A49B",
+        "color4": "#52B2A9",
+        "color5": "#6ABCB2",
+        "color6": "#5DC2B6",
+        "color7": "#aad8d4",
+        "color8": "#769794",
+        "color9": "#2BB2A7",
+        "color10": "#54918F",
+        "color11": "#59A49B",
+        "color12": "#52B2A9",
+        "color13": "#6ABCB2",
+        "color14": "#5DC2B6",
+        "color15": "#aad8d4"
+    }
+}

@@ -1,0 +1,12 @@
+#!/bin/bash
+
+dunstify -u low --replace=699 -i /usr/share/archcraft/icons/dunst/hourglass.png "Gerando esquema de cor. Por favor aguarde..." && 
+\
+ wal -q -n -s -t -e -i ~/Imagens/wallpapers && 
+\
+ cat ~/.cache/wal/colors.sh > ~/.config/bspwm/themes/current.bash && 
+\
+echo "\n# Não apague este arquivo" >> ~/.config/bspwm/themes/current.bash &&
+\
+ bspc wm -r
+\

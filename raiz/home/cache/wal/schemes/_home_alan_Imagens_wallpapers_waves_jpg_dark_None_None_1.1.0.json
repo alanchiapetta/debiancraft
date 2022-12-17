@@ -1,0 +1,27 @@
+{
+    "wallpaper": "/home/alan/Imagens/wallpapers/waves.jpg",
+    "alpha": "100",
+    "special": {
+        "background": "#121217",
+        "foreground": "#b7c6d7",
+        "cursor": "#b7c6d7"
+    },
+    "colors": {
+        "color0": "#121217",
+        "color1": "#637B92",
+        "color2": "#6E899D",
+        "color3": "#7694AC",
+        "color4": "#7F9FC1",
+        "color5": "#809FBA",
+        "color6": "#84A8BD",
+        "color7": "#b7c6d7",
+        "color8": "#808a96",
+        "color9": "#637B92",
+        "color10": "#6E899D",
+        "color11": "#7694AC",
+        "color12": "#7F9FC1",
+        "color13": "#809FBA",
+        "color14": "#84A8BD",
+        "color15": "#b7c6d7"
+    }
+}

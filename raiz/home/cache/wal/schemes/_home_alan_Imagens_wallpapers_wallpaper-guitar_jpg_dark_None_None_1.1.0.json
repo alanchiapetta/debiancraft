@@ -1,0 +1,27 @@
+{
+    "wallpaper": "/home/alan/Imagens/wallpapers/wallpaper-guitar.jpg",
+    "alpha": "100",
+    "special": {
+        "background": "#151311",
+        "foreground": "#e5e7e7",
+        "cursor": "#e5e7e7"
+    },
+    "colors": {
+        "color0": "#151311",
+        "color1": "#9FA29E",
+        "color2": "#B0B4B0",
+        "color3": "#BDC2BF",
+        "color4": "#C3C3BC",
+        "color5": "#D4D6D2",
+        "color6": "#E1E2DD",
+        "color7": "#e5e7e7",
+        "color8": "#a0a1a1",
+        "color9": "#9FA29E",
+        "color10": "#B0B4B0",
+        "color11": "#BDC2BF",
+        "color12": "#C3C3BC",
+        "color13": "#D4D6D2",
+        "color14": "#E1E2DD",
+        "color15": "#e5e7e7"
+    }
+}

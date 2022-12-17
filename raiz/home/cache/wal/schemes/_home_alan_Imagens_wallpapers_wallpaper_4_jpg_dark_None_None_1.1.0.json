@@ -1,0 +1,27 @@
+{
+    "wallpaper": "/home/alan/Imagens/wallpapers/wallpaper_4.jpg",
+    "alpha": "100",
+    "special": {
+        "background": "#022A38",
+        "foreground": "#93c7c7",
+        "cursor": "#93c7c7"
+    },
+    "colors": {
+        "color0": "#022A38",
+        "color1": "#5D4C70",
+        "color2": "#8B3678",
+        "color3": "#39976E",
+        "color4": "#36688D",
+        "color5": "#A5348C",
+        "color6": "#B15298",
+        "color7": "#93c7c7",
+        "color8": "#668b8b",
+        "color9": "#5D4C70",
+        "color10": "#8B3678",
+        "color11": "#39976E",
+        "color12": "#36688D",
+        "color13": "#A5348C",
+        "color14": "#B15298",
+        "color15": "#93c7c7"
+    }
+}

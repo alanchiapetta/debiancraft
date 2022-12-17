@@ -1,0 +1,23 @@
+" Special
+let wallpaper  = "/home/alan/Imagens/wallpapers/70.jpg"
+let background = "#1b1e25"
+let foreground = "#e6d2ba"
+let cursor     = "#e6d2ba"
+
+" Colors
+let color0  = "#1b1e25"
+let color1  = "#C5716D"
+let color2  = "#AD8C75"
+let color3  = "#D49676"
+let color4  = "#556F8B"
+let color5  = "#6D889C"
+let color6  = "#959796"
+let color7  = "#e6d2ba"
+let color8  = "#a19382"
+let color9  = "#C5716D"
+let color10 = "#AD8C75"
+let color11 = "#D49676"
+let color12 = "#556F8B"
+let color13 = "#6D889C"
+let color14 = "#959796"
+let color15 = "#e6d2ba"

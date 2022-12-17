@@ -1,0 +1,10 @@
+configuration {
+  show-icons:         true;
+  icon-theme:         "Zafiro";
+  terminal:           "alacritty";
+  cycle:              false;
+  hide-scrollbar:     true;
+  disable-history:    false;
+  modi: "windowcd,drun,combi,keys,filebrowser";
+  combi-modi: "window,drun,ssh,keys,filebrowser,windowcd";
+}

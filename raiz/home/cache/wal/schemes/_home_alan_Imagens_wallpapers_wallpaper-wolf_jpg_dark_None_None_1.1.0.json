@@ -1,0 +1,27 @@
+{
+    "wallpaper": "/home/alan/Imagens/wallpapers/wallpaper-wolf.jpg",
+    "alpha": "100",
+    "special": {
+        "background": "#001A26",
+        "foreground": "#c5c9dc",
+        "cursor": "#c5c9dc"
+    },
+    "colors": {
+        "color0": "#001A26",
+        "color1": "#2A66A9",
+        "color2": "#408BD8",
+        "color3": "#579DE4",
+        "color4": "#6FA4EC",
+        "color5": "#B3A3B5",
+        "color6": "#D2B9B7",
+        "color7": "#c5c9dc",
+        "color8": "#898c9a",
+        "color9": "#2A66A9",
+        "color10": "#408BD8",
+        "color11": "#579DE4",
+        "color12": "#6FA4EC",
+        "color13": "#B3A3B5",
+        "color14": "#D2B9B7",
+        "color15": "#c5c9dc"
+    }
+}

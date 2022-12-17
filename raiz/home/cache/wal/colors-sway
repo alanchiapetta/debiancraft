@@ -1,0 +1,21 @@
+set $wallpaper /home/alan/Imagens/wallpapers/70.jpg
+
+set $background #1b1e25
+set $foreground #e6d2ba
+
+set $color0 #1b1e25
+set $color1 #C5716D
+set $color2 #AD8C75
+set $color3 #D49676
+set $color4 #556F8B
+set $color5 #6D889C
+set $color6 #959796
+set $color7 #e6d2ba
+set $color8 #a19382
+set $color9 #C5716D
+set $color10 #AD8C75
+set $color11 #D49676
+set $color12 #556F8B
+set $color13 #6D889C
+set $color14 #959796
+set $color15 #e6d2ba
