@@ -1,9 +1,5 @@
 network-manager
 micro
-apt-listbugs
-byobu
-xdg-desktop-portal
-xdg-desktop-portal-gtk
 xdg-user-dirs
 xdg-user-dirs-gtk
 alsa-utils
@@ -47,7 +43,6 @@ fonts-noto
 fonts-noto-cjk
 fonts-noto-color-emoji
 fonts-noto-extra
-nvidia-detect
 nvidia-driver
 gamemode
 primus-nvidia
@@ -86,7 +81,6 @@ xinput
 zip
 zsh
 distrobox
-podman
 xsettingsd
 numlockx
 rofi

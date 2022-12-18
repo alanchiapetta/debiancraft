@@ -80,9 +80,10 @@ extra_packages(){
     echo "i3lock-color - Instalando dependências"
     sudo apt install autoconf gcc make pkg-config libpam0g-dev libcairo2-dev libfontconfig1-dev libxcb-composite0-dev libev-dev libx11-xcb-dev libxcb-xkb-dev libxcb-xinerama0-dev libxcb-randr0-dev libxcb-image0-dev libxcb-util0-dev libxcb-xrm-dev libxkbcommon-dev libxkbcommon-x11-dev libjpeg-dev -y
     echo "Clonando repositórios de: https://github.com/Raymo111/i3lock-color.git"
+    git clone https://github.com/Raymo111/i3lock-color.git
     cd i3lock-color
     chmod +x install-i3lock-color.sh
-    ./install-i3lock-color.sh
+    sudo sh install-i3lock-color.sh
     cd ..
     rm -rf i3lock-color
     echo "i3lock-color Instalado"
@@ -168,6 +169,7 @@ copy_configs(){
     echo
     echo "A copiar arquivos para /usr"
     sudo cp -rv $file_directory/raiz/usr/local/* /usr/local/
+    sudo cp -rv $file_directory/raiz/usr/share/* /usr/share/
     echo "Arquivos de configuração copiados"
     sleep 1
     start_function
