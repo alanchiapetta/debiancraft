@@ -8,7 +8,7 @@ DIR="$HOME/.config/bspwm"
 # File
 time=`date +%Y-%m-%d-%H-%M-%S`
 geometry=`xrandr | grep 'current' | head -n1 | cut -d',' -f2 | tr -d '[:blank:],current'`
-dir="~/Imagens/screenshots"
+dir="$HOME/Imagens/screenshots"
 file="Screenshot_${time}_${geometry}.png"
 
 # Commands
@@ -24,12 +24,12 @@ inten=""
 
 # notify and view screenshot
 notify_view () {
-	${notify_cmd_shot} "Copied to clipboard."
+	${notify_cmd_shot} "Copiado para clipboard."
 	viewnior ${dir}/"$file"
 	if [[ -e "$dir/$file" ]]; then
-		${notify_cmd_shot} "Screenshot Saved."
+		${notify_cmd_shot} "Screenshot Salvo."
 	else
-		${notify_cmd_shot} "Screenshot Deleted."
+		${notify_cmd_shot} "Screenshot Salvo."
 	fi
 }
 

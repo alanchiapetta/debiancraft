@@ -152,6 +152,7 @@ copy_configs(){
     mkdir -p ~/.config
     mkdir -p ~/.icons
     mkdir -p ~/Imagens
+    mkdir -p ~/Imagens/screenshots
     mkdir -p ~/.mpd
     mkdir -p ~/.ncmpcpp
     mkdir -p ~/.oh-my-zsh
