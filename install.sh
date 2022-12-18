@@ -3,23 +3,6 @@
 
 file_directory=$(dirname -- $(readlink -fn -- "$0"))
 
-add_user_sudoers(){
-    
-    if [[ $(id -u) == 0 ]]; then
-        echo "Qual usuário você quer adicionar poderes de Sudo?: "
-        read user
-        echo "$user  ALL=(ALL:ALL) ALL" >> /etc/sudoers
-        echo "Usuário agora é Sudo. Agora você pode utilizar o comando sudo!"
-        start_function
-    
-    else
-        echo "Você precisa ser root para rodar esta função"
-        echo "Por favor, execute esse script novamente como root e escolha a opção novamente."
-        start_function
-
-    fi
-}
-
 # Habilitar suporte ao Flatpak.
 enable_flatpak(){ #OK
     
@@ -56,9 +39,14 @@ apt_packages(){ #OK
     sleep 1
     sudo apt update
     sudo apt full-upgrade -y
+    sudo apt remove apt-listbugs -y
     while IFS= read -r line || [[ -n "$line" ]]; do
         sudo apt install $line -y
     done < "$apt_programs"
+    sudo apt autoremove -y
+    sudo apt install apt-listbugs -y 
+    xdg-user-dirs-update
+    xdg-user-dirs-gtk-update   
     echo
     echo "Pacotes instalados"
     start_function   
@@ -82,7 +70,7 @@ extra_packages(){
     echo "Ksuperkey Instalando pacotes"
     sudo make
     sudo make install
-    cd..
+    cd ..
     rm -rf ksuperkey
     echo "Ksuperkey Instalado"
     sleep 1
@@ -95,7 +83,7 @@ extra_packages(){
     cd i3lock-color
     chmod +x install-i3lock-color.sh
     ./install-i3lock-color.sh
-    cd..
+    cd ..
     rm -rf i3lock-color
     echo "i3lock-color Instalado"
     sleep 1
@@ -190,13 +178,12 @@ start_function(){
 echo
 echo "Selecione a opção desejada."
 echo
-echo "1  - Transformar usuário em SUDO"
-echo "2  - APT - Pacotes gerais e essenciais do repositório Debian-Sid"
-echo "3  - FLATPAK - Instalar e habilitar suporte ao Flatpak"
-echo "4  - FLATPAK - Instalar programas Flatpak"
-echo "5  - Extras - Pacotes essenciais para Debiancraft"
-echo "6  - Copiar arquivos de configuração para o sistema (Faça por último)"
-echo "7  - Sair do script" 
+echo "1  - APT - Pacotes gerais e essenciais do repositório Debian-Sid"
+echo "2  - FLATPAK - Instalar e habilitar suporte ao Flatpak"
+echo "3  - FLATPAK - Instalar programas Flatpak"
+echo "4  - Extras - Pacotes essenciais para Debiancraft"
+echo "5  - Copiar arquivos de configuração para o sistema (Faça por último)"
+echo "6  - Sair do script" 
 echo
 
 # Recebe a escolha do usuário e carregas os asquivos .txt
@@ -205,22 +192,20 @@ while :
 do
   read select_option
   case $select_option in
-
-    1)  add_user_sudoers;; 
 	
-	2)	apt_programs="$file_directory/pacotes/pacotes-apt.txt"
+	1)	apt_programs="$file_directory/pacotes/pacotes-apt.txt"
         apt_packages;;
 	
-    3)  enable_flatpak;;
+    2)  enable_flatpak;;
 
-    4)  flatpak_programs="$file_directory/pacotes/pacotes-flatpak.txt"
+    3)  flatpak_programs="$file_directory/pacotes/pacotes-flatpak.txt"
         flatpak_packages;;
     
-    5)	extra_packages;;
+    4)	extra_packages;;
     
-    6)  copy_configs;;
+    5)  copy_configs;;
     
-    7)	exit
+    6)	exit
     
   esac
 done
