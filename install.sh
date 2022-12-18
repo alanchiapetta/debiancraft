@@ -6,7 +6,7 @@ file_directory=$(dirname -- $(readlink -fn -- "$0"))
 # Habilitar suporte ao Flatpak.
 enable_flatpak(){ #OK
     
-    echo "É recomendado reiniciar o computador depois de instalar estes pacores."
+    echo "É recomendado reiniciar o computador depois de instalar estes pacotes."
     echo "Os serviços do Flatpak necessitam que a máquina seja reiniciada para funcionar corretamente!"
     sleep 1
     sudo apt install flatpak -y && sudo apt install --reinstall ca-certificates -y
