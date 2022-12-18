@@ -85,12 +85,21 @@ extra_packages(){
     chmod +x install-i3lock-color.sh
     sudo sh install-i3lock-color.sh
     cd ..
-    rm -rf i3lock-color
+    sudo rm -rf i3lock-color
     echo "i3lock-color Instalado"
     sleep 1
     echo
     echo "Betterlockscreen - Instalando da fonte: github.com/betterlockscreen/betterlockscreen"
-    wget https://raw.githubusercontent.com/betterlockscreen/betterlockscreen/main/install.sh -O - -q | sudo bash -s system
+    wget https://github.com/betterlockscreen/betterlockscreen/archive/refs/heads/main.zip
+    unzip main.zip
+    cd betterlockscreen-main/
+    chmod u+c betterlockscreen
+    sudo cp betterlockscreen /usr/local/bin
+    sudo cp system/betterlockscreen@.service /usr/lib/systemd/system/
+    systemctl enable betterlockscreen@$USER
+    cd ..
+    rm -rf betterlockscreen-main
+    rm -rf main.zip
     echo "Betterlockscreen Instalado"
     sleep 1
     echo
