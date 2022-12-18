@@ -29,7 +29,7 @@ libreoffice-help-pt-br
 libreoffice-l10n-pt-br
 ttf-mscorefonts-installer
 lxappearance
-main
+maim
 mpc
 mpd
 mpv
