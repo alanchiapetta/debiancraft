@@ -231,8 +231,8 @@ echo
 echo "Selecione a opção desejada."
 echo
 echo "1  - APT - Pacotes gerais e essenciais do repositório Debian-Sid"
-echo "2  - FLATPAK - Instalar e habilitar suporte ao Flatpak" (opcional)
-echo "3  - FLATPAK - Instalar programas Flatpak" (opcional )
+echo "2  - FLATPAK - Instalar e habilitar suporte ao Flatpak (opcional)"
+echo "3  - FLATPAK - Instalar programas Flatpak (opcional)"
 echo "4  - Extras - Pacotes essenciais para Debiancraft" 
 echo "5  - Copiar arquivos de configuração para o sistema (Faça por último)"
 echo "6  - Instalar gerenciador de login LightDM (opcional)"
@@ -258,7 +258,7 @@ do
     
     5)  copy_configs;;
 
-    6   install_lightdm;;
+    6)   install_lightdm;;
     
     7)	exit
     

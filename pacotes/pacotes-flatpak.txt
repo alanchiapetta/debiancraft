@@ -1,4 +1,3 @@
-com.visualstudio.code
 com.discordapp.Discord
 com.obsproject.Studio
 com.heroicgameslauncher.hgl
