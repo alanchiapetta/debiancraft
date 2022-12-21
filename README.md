@@ -1,12 +1,12 @@
 # EM TESTES
 
-Este é um projeto que criei porque gosto muito do visual do Archcraft, mas como gosto muito de utilizar o Debian Sid na minha máquina ao invés de distribuições baseadas em Archlinux pensei: 
+Este é um projeto que criei porque gosto muito do visual do Archcraft, e também adoro o utilizar o Debian Sid. E então, pensei: 
 
--- *Por que não tentar copiar toda a configuração e personalizações do Archcraft para meu Debian Sid?*
+-- *Por que não tentar copiar toda a configuração e personalizações do Archcraft para o Debian Sid?*
 
 E aí está nascendo o que chamei carinhosamente de "Debiancraft".
 
-Como criei o projeto pensando em uso pessoal, além de instalar as configurações do Archcraft, também adicionei alguns pacotes que utilizo no dia a dia.
+Como criei o projeto pensando em uso pessoal, além de instalar as configurações do Archcraft, também adicionei alguns pacotes que utilizo no dia a dia para criar uma instalação no pendrive e levar para todo lugar.
 
 Subi aqui no Github para facilitar os testes em máquinas virtuais, pois é só clonar o repositório.
 
